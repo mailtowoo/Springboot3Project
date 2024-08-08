@@ -65,8 +65,8 @@ class ArticleServiceTest {
     @Transactional
     void create_성공_title과_content만_있는_dto_입력() {
         // 1. 예상 데이터
-        String title = "라라라라";
-        String content = "4444";
+        String title = "신규타이틀";
+        String content = "777777";
         ArticleForm dto = new ArticleForm(null, title, content);
         Article expected = new Article(7L, title, content);
         // 2. 실제 데이터
