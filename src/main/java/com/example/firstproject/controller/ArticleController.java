@@ -35,7 +35,7 @@ public class ArticleController {
         log.info(form.toString());
         // System.out.println(form.toString());
 
-        // 1. DTO를 엔티티로 변환 modify test
+        // 1. DTO를 엔티티로 변환 modify test jj
         //Article article = form.toEntity();
         //log.info(article.toString());
         // System.out.println(article.toString());
