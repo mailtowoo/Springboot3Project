@@ -16,6 +16,7 @@ import java.util.List;
 public class ArticleApiController {
     @Autowired
     private ArticleService articleService;
+
     // GET
     @GetMapping("/api/articles")
     public List<Article> index() {
@@ -62,4 +63,5 @@ public class ArticleApiController {
             ResponseEntity.status(HttpStatus.OK).body(createdList) :
             ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
     }
+    // test
 }
